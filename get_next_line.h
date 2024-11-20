@@ -6,7 +6,7 @@
 /*   By: taya <taya@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 03:56:20 by taya              #+#    #+#             */
-/*   Updated: 2024/11/20 15:39:25 by taya             ###   ########.fr       */
+/*   Updated: 2024/11/20 18:16:50 by taya             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,8 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strdup(const char *s);
 char	*ft_strncpy(char *dest, const char *src, int len);
 char	*ft_check_for_read(int fd, char *buffer);
+char	*ft_read(int fd, char *buffer);
+char	*ft_line(char *buffer);
+char	*ft_save_leftover(char *buffer);
+
 #endif
